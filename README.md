@@ -26,6 +26,6 @@ As this was a Huawei Cloud Hackathon, we were obligated to use Huawei Cloud Serv
 ![Overall Block Diagram](https://github.com/CSjiade/Huawei_Cloud_Hackathon/blob/main/documents/setup.png)
 
 ### More Detailed Explaination of our product and features
-*Take a look at the pitch deck slides* `pitchdeck.pdf` *for a more detailed description of the product, solution and features and System Design*
+*Take a look at the pitch deck slides* `pitchdeck.pdf` *for a more detailed description of the product, solution, features and System Design*
 
 Done by: Mao Yiru & Lian Jiade
