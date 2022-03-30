@@ -15,7 +15,7 @@ A full stack Ecommerce app for users to sell and purchase used office equipment.
 2. **Price Prediction using machine learning** to help users in determining the fair value of a product
 3. **Create new Account and login** for users to create new account or log in with existing account
 4. **View and Buy** Allow users to view an item they like and purchase them
-5. **CRUD Operations** to allow users to do general ecommerce activities such as searching for products and adding them to order list
+5. **CRUD Operations** to allow users to do general ecommerce activities such as adding prdoducts to the platform to sell and searching for products
 6. **Order History, View History and Wish List** to allow users to keep track of their past orders, recently viewed items and items they intend to purchase in the future
 
 # App Architecture <br />
