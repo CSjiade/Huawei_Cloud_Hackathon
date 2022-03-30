@@ -15,7 +15,7 @@ A full stack Ecommerce app for users to sell and purchase used office equipment.
 2. **Price Prediction using machine learning** to help users in determining the fair value of a product
 3. **Create new Account and login** for users to create new account or log in with existing account
 4. **CRUD Operations** to allow users to do general ecommerce activities such as searching for products and adding them to order list
-5. **Order, View History and Wish List** to allow users to keep track of their past orders, recently viewed items and items they intend to purchase in the future
+5. **Order History, View History and Wish List** to allow users to keep track of their past orders, recently viewed items and items they intend to purchase in the future
 
 # App Architecture <br />
 As this was a Huawei Cloud Hackathon, we were obligated to use Huawei Cloud Services when building the product. Following services were used to ensure scalability and latency
