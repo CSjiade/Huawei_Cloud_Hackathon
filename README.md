@@ -8,7 +8,7 @@
 A full stack Ecommerce app for users to sell and purchase used office equipment. The app also comes with Machine Learning functinalities such as  Classification of the age of the product using computer vision and estimation of the price of the product using a DecisionTreeRegressor <br/>
 
 **App Interface**<br />
-![App Interface Diagram](https://github.com/CS3237IOT/IOT/blob/main/resources/app_Interface.png)
+![App Interface Diagram](https://github.com/CSjiade/Huawei_Cloud_Hackathon/blob/main/documents/setup.png)
 
 # Summary of Main Features Implemented
 1. **Goods defect recognition and age estimation using Computer Vision** to aid in product misrepresantation or fradulent claims
@@ -23,7 +23,7 @@ As this was a Huawei Cloud Hackathon, we were obligated to use Huawei Cloud Serv
 2. **Huawei Object Storage Service(OBS)**
 3. **Elastic IP service(OBS)**
 4. **GassDB(MySQL)**
-![Overall Block Diagram](https://github.com/CS3237IOT/IOT/blob/main/resources/System_Design.png)
+![Overall Block Diagram]()
 
 ### More Detailed Explaination of our product and features
 *Take a look at the pitch deck slides* `pitchdeck.pdf` *for a more detailed description of the product, solution and features and System Design*
