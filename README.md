@@ -5,20 +5,18 @@
 
 # Product Name: Misa
 **Product Description**<br />
-An Ecommerce app for users to sell and purchase used office equipment for users to. The app also comes with Machine Learning functinalities such as  Classification of the age of the product using computer vision and estimation of the value of the product using a DecisionTreeRegressor <br/>
+An Ecommerce app for users to sell and purchase used office equipment. The app also comes with Machine Learning functinalities such as  Classification of the age of the product using computer vision and estimation of the price of the product using a DecisionTreeRegressor <br/>
 
 **App Interface**<br />
 ![App Interface Diagram](https://github.com/CS3237IOT/IOT/blob/main/resources/app_Interface.png)
 
 
 # Summary of Main Features Implemented
-1. **Goods defect recognition and age estimation** for Running, idle, walking, push-up, sit-up and Jumpig Jack
-2. **Price Prediction** for long-term analytics and activity tracking
-3. **Search and Buy** Determines "standard close arm" and "not standard wide arm" push-up
-4. **Environmental Profiling** 5 heat injury risks levels (Safe, Attention, Warning, Dangerous and Extremely Dangerous) based on the NOAA Heat Index
+1. **Goods defect recognition and age estimation using Computer Vision** to aid in product misrepresantation or fradulent claims
+2. **Price Prediction using machine learning** to help users in determining the fair value of a product
+3. **CRUD Operations** to allow users to do general ecommerce activities such as searching for products and adding them to order list
 
-
-# IOT System Architecture <br />
+# App Architecture <br />
 As this was a Huawei Cloud Hackathon, we were obligated to use Huawei Cloud Services when building the product. Following services were used to ensure scalability and latency
 1. **Huawei Elastic Cloud Server(ECS)**
 2. **Huawei Object Storage Service(OBS)**
