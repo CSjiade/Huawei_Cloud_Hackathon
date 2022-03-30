@@ -25,7 +25,7 @@ A full stack Ecommerce app for users to sell and purchase used office equipment.
 ![App Interface Diagram](https://github.com/CSjiade/Huawei_Cloud_Hackathon/blob/main/documents/list.png)
 
 # App Architecture <br />
-As this was a Huawei Cloud Hackathon, we were obligated to use Huawei Cloud Services when building the product. Following services were used to ensure scalability and latency
+As this was a Huawei Cloud Hackathon, we were obligated to use Huawei Cloud Services when building the product. Following services were used to ensure scalability and performance
 1. **Huawei Elastic Cloud Server(ECS)**
 2. **Huawei Object Storage Service(OBS)**
 3. **Elastic IP service(OBS)**
