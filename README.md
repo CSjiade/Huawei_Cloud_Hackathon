@@ -28,8 +28,8 @@ A full stack Ecommerce app for users to sell and purchase used office equipment.
 As this was a Huawei Cloud Hackathon, we were obligated to use Huawei Cloud Services when building the product. Following services were used to ensure scalability and performance
 1. **Huawei Elastic Cloud Server(ECS)**
 2. **Huawei Object Storage Service(OBS)**
-3. **Elastic IP service(OBS)**
-4. **GassDB(MySQL)**
+3. **Elastic IP service**
+4. **GaussDB(MySQL)**
 ![Overall Block Diagram](https://github.com/CSjiade/Huawei_Cloud_Hackathon/blob/main/documents/setup.png)
 
 ### More Detailed Explaination of our product and features
