@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.misa.misa.view.AddPriceActivity">
+
+        <TextView
+            android:id="@+id/labelSpinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentTop="true"
+            android:textSize="18dp"
+            android:text="Select the Category" />
+
+        <Spinner
+            android:id="@+id/category_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/labelSpinner1"
+            android:layout_toRightOf="@id/labelSpinner1"
+            android:drawSelectorOnTop="true"
+            />
+
+
+
+        <TextView
+            android:id="@+id/labelSpinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:layout_alignParentTop="true"
+            android:text="Select the brand" />
+
+        <Spinner
+            android:id="@+id/brand_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/labelSpinner1"
+            android:layout_toRightOf="@id/labelSpinner1"
+            android:drawSelectorOnTop="true"
+            android:textSize="20dp"
+            android:hint="brand"
+             />
+
+        <EditText
+            android:id="@+id/txtage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age of product"
+            android:layout_marginTop="10dp"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+
+
+        <TextView
+            android:id="@+id/labelSpinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:layout_alignParentTop="true"
+            android:text="Select the color" />
+
+        <Spinner
+            android:id="@+id/color_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="color"
+             />
+
+        <EditText
+            android:id="@+id/txtHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Height of product in Inches"
+            android:importantForAutofill="no"
+            android:layout_marginTop="10dp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/txtWidth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Width of product in Inches"
+            android:layout_marginTop="10dp"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/txtDepth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Depth of Product in Inches"
+            android:layout_marginTop="10dp"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnPredict"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Run Prediction"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/txtresult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Your Prediction is:"
+            android:textColor="@color/darkGreen"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txthelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Our price predictor is built based on transaction data accmulated in our system. For the beta version we are opening it to chair products only. Watch out for more updates! "
+            />
+
+
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_cart"
+        android:icon="@drawable/ic_shopping_cart_white"
+        android:title="@string/cart"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_addProduct"
+        android:icon="@drawable/ic_add"
+        android:title="@string/add_product"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_addPrice"
+        android:icon="@drawable/pricing"
+        android:title="Pricing"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_checkGood"
+        android:icon="@drawable/good"
+        android:title="Check Good"
+        app:showAsAction="always" />
+
+
+</menu>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.pmml4s:pmml4s_2.11:0.9.9">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pmml4s/pmml4s_2.11/0.9.9/598b8d4310e41b23a7eefc68f31163a17c30a197/pmml4s_2.11-0.9.9.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pmml4s/pmml4s_2.11/0.9.9/ba4c48d5a849355eedf12fcab7f2b776598c9f89/pmml4s_2.11-0.9.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pmml4s/pmml4s_2.11/0.9.9/4e471d5e2106b309e814d85d05a5bb7aecc4d712/pmml4s_2.11-0.9.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

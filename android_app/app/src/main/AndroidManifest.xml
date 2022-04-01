@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.marwaeltayeb.souq">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/earth"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.misa.misa.view.CheckGoodActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.misa.misa.view.DocumentActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.misa.misa.view.ViewProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.misa.misa.view.AddPriceActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.misa.misa.view.SplashActivity"
+            android:exported="true"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+        <activity
+            android:name="com.misa.misa.view.ProductActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.misa.misa.view.LoginActivity" />
+        <activity
+            android:name="com.misa.misa.view.SignUpActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.misa.misa.view.DetailsActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.misa.misa.view.AllMobilesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.misa.misa.view.AllMobilesActivity" />
+        </activity>
+        <activity
+            android:name="com.misa.misa.view.AllLaptopsActivity"
+            android:label="@string/all_laptops"
+            android:parentActivityName="com.misa.misa.view.ProductActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.misa.misa.view.ProductActivity" />
+        </activity>
+        <activity
+            android:name="com.misa.misa.view.AllMobilesActivity"
+            android:label="@string/all_mobiles"
+            android:parentActivityName="com.misa.misa.view.ProductActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.misa.misa.view.ProductActivity" />
+        </activity>
+        <activity
+            android:name="com.misa.misa.view.CartActivity"
+            android:label="@string/cart"
+            android:parentActivityName="com.misa.misa.view.ProductActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.misa.misa.view.ProductActivity" />
+        </activity>
+        <activity
+            android:name="com.misa.misa.view.WishListActivity"
+            android:label="@string/my_wishList"
+            android:parentActivityName="com.misa.misa.view.ProductActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.misa.misa.view.ProductActivity" />
+        </activity>
+        <activity
+            android:name="com.misa.misa.view.AccountActivity"
+            android:label="@string/my_account"
+            android:parentActivityName="com.misa.misa.view.ProductActivity"
+            android:theme="@style/AccountTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.misa.misa.view.ProductActivity" />
+        </activity>
+        <activity
+            android:name="com.misa.misa.view.AddProductActivity"
+            android:label="@string/add_product"
+            android:parentActivityName="com.misa.misa.view.ProductActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.misa.misa.view.ProductActivity" />
+        </activity>
+        <activity
+            android:name="com.misa.misa.view.HelpActivity"
+            android:label="@string/help_center"
+            android:parentActivityName="com.misa.misa.view.ProductActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.misa.misa.view.ProductActivity" />
+        </activity>
+        <activity
+            android:name="com.misa.misa.view.AllReviewsActivity"
+            android:label="@string/reviews"
+            android:parentActivityName="com.misa.misa.view.DetailsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.misa.misa.view.DetailsActivity" />
+        </activity>
+        <activity
+            android:name="com.misa.misa.view.WriteReviewActivity"
+            android:label="@string/write_review"
+            android:parentActivityName="com.misa.misa.view.DetailsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.misa.misa.view.DetailsActivity" />
+        </activity>
+        <activity
+            android:name="com.misa.misa.view.PasswordActivity"
+            android:label="@string/change_password"
+            android:parentActivityName="com.misa.misa.view.AccountActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.misa.misa.view.AccountActivity" />
+        </activity>
+        <activity
+            android:name="com.misa.misa.view.CategoryActivity"
+            android:parentActivityName="com.misa.misa.view.ProductActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.misa.misa.view.ProductActivity" />
+        </activity>
+        <activity
+            android:name="com.misa.misa.view.PasswordAssistantActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.misa.misa.view.AuthenticationActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.misa.misa.view.NewsFeedActivity"
+            android:label="@string/news_feed"
+            android:parentActivityName="com.misa.misa.view.ProductActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.misa.misa.view.ProductActivity" />
+        </activity>
+        <activity android:name="com.misa.misa.view.ShippingAddressActivity" />
+        <activity
+            android:name="com.misa.misa.view.OrderProductActivity"
+            android:theme="@style/OrderProductTheme" />
+        <activity
+            android:name="com.misa.misa.view.OrdersActivity"
+            android:label="@string/orders"
+            android:parentActivityName="com.misa.misa.view.ProductActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.misa.misa.view.ProductActivity" />
+        </activity>
+        <activity
+            android:name="com.misa.misa.view.StatusActivity"
+            android:label="@string/status"
+            android:parentActivityName="com.misa.misa.view.OrdersActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.misa.misa.view.OrdersActivity" />
+        </activity>
+        <activity
+            android:name="com.misa.misa.view.SearchActivity"
+            android:theme="@style/noAnimTheme" />
+        <activity android:name="com.misa.misa.view.ResultActivity" />
+
+        <receiver android:name="com.misa.misa.receiver.NetworkChangeReceiver" />
+    </application>
+
+</manifest>
