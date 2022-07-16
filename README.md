@@ -2,10 +2,8 @@
 
 **Background:** This product is mobile app that aims to facilitate transaction of used office equipment in the B2B and B2C market. It was built as a solution to address the problem of rising environmental emissions. The goal is to make transactions of used office equipment secure, transparent and seamless so that people will be comfortable in purchasing and reusing second-hand office equipment. This will allow the circular economy to flourish and in the process reduce carbon emissions from reproduction of office goods 
 
-**Hackathon Result:** Semi-Finalist :sob::sob::sob::sob::sob:
+**Hackathon Result:** Semi-Finalist :sob
 
-
-# Product Name: Misa
 **Product Description**<br />
 A full stack Ecommerce app for users to sell and purchase used office equipment. The app also comes with Machine Learning functinalities such as  Classification of the age of the product using computer vision and estimation of the price of the product using a DecisionTreeRegressor <br/>
 
@@ -27,7 +25,7 @@ A full stack Ecommerce app for users to sell and purchase used office equipment.
 ![App Interface Diagram](https://github.com/CSjiade/Huawei_Cloud_Hackathon/blob/main/documents/list.png)
 
 # App Architecture <br />
-As this was a Huawei Cloud Hackathon, we were obligated to use Huawei Cloud Services when building the product. Following services were used to ensure scalability and performance
+As this was a Huawei Cloud Hackathon, we were obligated to use Huawei Cloud Services when building the product. We experimented with following services to meet judging criteria of scalability and performance
 1. **Huawei Elastic Cloud Server(ECS)**
 2. **Huawei Object Storage Service(OBS)**
 3. **Elastic IP service**
