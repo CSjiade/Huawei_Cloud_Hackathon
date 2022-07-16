@@ -1,12 +1,12 @@
 # Huawei Cloud Spark Hackathon 2022
 
-**Background:** This product is a mobile app that aims to facilitate transaction of used office equipment in the B2B and B2C market. It was built as a solution to address the problem of rising environmental emissions as per of the 
-** Vision ** The goal is to make transactions of used office equipment secure, transparent and seamless so that people will be comfortable in purchasing and reusing second-hand office equipment. This will allow the circular economy to flourish and in the process reduce carbon emissions from reproduction of office goods 
-
 **Hackathon Result:** Semi-Finalist :slightly_frowning_face:
 
-**Product Description**<br />
+**Background:** This product is a mobile app that aims to facilitate transaction of used office equipment in the B2B and B2C market. It was built as a solution to address the problem of rising environmental emissions as per of the <br/>
+**Product Description** <br/>
 A full stack Ecommerce app for users to sell and purchase used office equipment. The app also comes with Machine Learning functinalities such as  Classification of the age of the product using computer vision and estimation of the price of the product using a DecisionTreeRegressor <br/>
+
+**Vision:** The goal is to make transactions of used office equipment secure, transparent and seamless so that people will be comfortable in purchasing and reusing second-hand office equipment. This will allow the circular economy to flourish and in the process reduce carbon emissions from reproduction of office goods 
 
 **App Interface**<br />
 ![App Interface Diagram](https://github.com/CSjiade/Huawei_Cloud_Hackathon/blob/main/documents/interface.png)
